@@ -1,0 +1,75 @@
+/* Reset Browser Default Behaviour */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.wrapper{
+    width: 50%;
+}
+/* Display  */
+.advice-display{
+    background: #3dd36f75;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    min-height: 300px;
+    padding: 40px;
+}
+
+.advice-buttons-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px 0;
+}
+
+.advice-buttons-container div{
+    width: 200px;
+}
+
+.advice-buttons-container button{
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 1.1rem;
+    background: #c47105;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+}
+
+.advice-by-id-container input:first-child{
+    border: none;
+    padding: 5px 8px; 
+    font-size: 1.2rem;
+}
+
+.advice-id-input-field{
+    width: 130px;
+}
+
+.advice-keyword-input-field{
+    width: 180px;
+}
+
+.advice-buttons-container button:hover{
+   background: #08595c;
+}
+
+.spinner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.error-container{
+    color: red;
+}
