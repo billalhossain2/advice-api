@@ -23,6 +23,7 @@ const getDynamicAdvice = async (endpoint) => {
   //Base API
   const BASE_URL = `https://api.adviceslip.com`;
   try {
+    //Clear Previous Data
     adviceDisplay.innerHtml = "";
     showMsg("LOADING");
     const response = await fetch(`${BASE_URL}/${endpoint}`);
